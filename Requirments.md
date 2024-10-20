@@ -38,7 +38,7 @@ Users should be able to rate products with a 5-star system and have the option t
    - Real-time feedback if users submit incomplete reviews (e.g., “Please rate the product before submitting your feedback”).
 
     #### Editing/Deleting Reviews:
-  - Users can edit or delete their reviews from their profile under "My Reviews".
+   - Users can edit or delete their reviews from their profile under "My Reviews".
 
 
 ### 2. Age Verification for Alcoholic Products
