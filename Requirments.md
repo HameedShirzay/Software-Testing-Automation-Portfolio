@@ -23,22 +23,7 @@ Users should be able to rate products with a 5-star system and have the option t
 - 4. Should users be notified if their review is responded to or rejected?
 
 #### Detailed Requirement:
- - #### Eligibility:
-   - Only logged-in users can rate and review products.
-   - Users can rate a product using a 1 to 5-star system.
-   #### Feedback Option:
-   - Users can provide optional written feedback (up to 300 characters).
-   - If the user submits only a rating without feedback, it will still be valid.
-
-   #### Moderation:
-   - For MVP, no moderation process will be in place, but reviews must follow basic platform rules (e.g., no offensive language). Moderation can be implemented later.
-
-   #### UI/UX:
-   - Each product page will display the average rating (e.g. 4.2/5) and number of reviews.
-   - Real-time feedback if users submit incomplete reviews (e.g., “Please rate the product before submitting your feedback”).
-
-    #### Editing/Deleting Reviews:
-   - Users can edit or delete their reviews from their profile under "My Reviews".
+Only logged in users can rate and review products to ensure authenticity. Users can rate products on a 1 to 5 star scale, with the option to provide additional written feedback of up to 300 characters. If only a rating is submitted without feedback, it is still valid. On the product page the system will display the average rating (e.g , 4.2 out of 5) along with the total number of reviews. Users will receive realtime feedback if they attempt to submit incomplete reviews (e.g., “Please rate the product before submitting your feedback”). Users will also have the ability to edit or delete their reviews through the “My Reviews” section in their profile.
 
 
 ### 2. Age Verification for Alcoholic Products
@@ -48,28 +33,11 @@ A popup/modal should appear when users navigate to the alcoholic products catego
 
 #### Questions:
 - 1. What happens if the user inputs an invalid date or is under 18?
-- 2. Should the age check be remembered for future visits? (e.g., store the result in cookies or local storage?)
+- 2. Should the age check be remembered for future visits?
 - 3. Should we provide legal disclaimers or privacy notices related to age verification?
 
  #### Detailed Requirement:
-
- - #### User Flow:
-   - When a user navigates to the alcoholic products category, a modal popup will ask:
-   - “Please confirm your age by entering your date of birth (MM/DD/YYYY).”
-
- - #### Validation:
-   - The system will check if the user is at least 18 years old.
-   - If the user is under 18, the modal will show an error:
-"You must be 18 years or older to access these products."
-   - If the user enters an invalid date, the system will prompt:
-"Please enter a valid date of birth."
-
-- #### Privacy Notice:
-   - The modal will include a disclaimer:
-“We do not store your date of birth. Your age confirmation is used only for this session.”
-
-- #### Session Handling:
-   - If the user passes verification, the result will be stored in cookies for the session to avoid repeated checks.
+When users attempt to access the alcoholic products category, a modal popup will appear, prompting them to enter their date of birth in the MM/DD/YYYY format. The system will validate the input to confirm the user is at least 18 years old. If the user is under 18, an error message will appear: “You must be 18 years or older to access these products.” If an invalid date is entered, the message will prompt: “Please enter a valid date of birth.” To address privacy concerns, the modal will display a disclaimer: “We do not store your date of birth. Your age confirmation is used only for this session”. If the user passes the verification, the result will be temporarily stored in cookies for the current session to avoid repeated checks.
 
 ### 3. Shipping Cost Changes
 
@@ -82,24 +50,5 @@ The platform should offer free shipping for orders above a certain amount. Order
  - 3. Should there be different shipping fees based on location or product weight?
 
 ### Detailed Requirement:
-
-- #### Free Shipping Threshold:
-  - Free shipping will apply to orders above $50 (configurable in the admin panel).
-  - For orders below $50, a flat shipping fee of $5.99 will be applied.
-
-- #### UI/UX Handling:
-  - The shipping cost or free shipping message will be shown during checkout in the order summary.
-  - If the user adds or removes products, the system will recalculate the total and update the shipping cost in real-time.
-
-- #### Order Summary Messages:
-  - If the order qualifies for free shipping:
-"Congratulations! Your order qualifies for free shipping!"
-  - If the order does not qualify:
-"Add $X more to your cart to qualify for free shipping."
-
-- #### Shipping Cost Calculation:
-  - The system will calculate the total price including shipping and taxes in the final order summary.
-
-### Summary:
-These new features aim to improve the functionality and user experience of the webshop:
+Orders above $50 will qualify for free shipping, while orders below this threshold will incur a flat shipping fee of $5.99. This threshold value will be configurable from the admin panel. During checkout, the system will show the shipping cost or a free shipping message in the order summary. If the order qualifies, the message will display: “Congratulations! Your order qualifies for free shipping!” Otherwise, it will encourage users with: “Add X more to your cart to qualify for free shipping.” As users modify the contents of their cart, the system will recalculate the total price in real time, including shipping and taxes, and reflect the updated cost dynamically.
 
