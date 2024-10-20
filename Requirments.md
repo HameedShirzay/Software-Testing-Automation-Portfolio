@@ -9,7 +9,7 @@
   - Choose payment method
   - Calculate total price during checkout
 
-### New Features Requirements
+## New Features Requirements
 
 ### 1. Product Rating System
 
