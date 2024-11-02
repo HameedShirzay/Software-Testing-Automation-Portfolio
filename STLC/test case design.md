@@ -2,7 +2,7 @@
 
 **Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence Partitioning (EP), Use Case Testing, Error Guessing
 
-### Test Case:
+### Test Cases:
 
 1. **Boundary Value Analysis**:
     - **Test Case**: Verify product rating with the minimum rating value.
@@ -40,3 +40,36 @@
     - **Test Case**: Verify system behavior when feedback text contains prohibited or inappropriate words.
         - **Input**: Enter feedback text containing offensive or prohibited language.
         - **Expected Outcome**: Error message displayed, "Your feedback contains inappropriate language."
+
+### **2. Age Verification for Alcoholic Products**
+
+**Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence partitioning(EP), Error Guessing
+
+**Test Cases**:
+
+1. **Boundary Value Analysis**:
+    - **Test Case**: Verify age verification for a user exactly 18 years old.
+        - **Input**: Date of Birth = (Today - 18 years).
+        - **Expected Outcome**: User is allowed to add alcoholic product to cart.
+2. **Boundary Value Analysis**:
+    - **Test Case**: Verify age verification for a user just under 18 years old.
+        - **Input**: Date of Birth = (Today - 18 years + 1 day).
+        - **Expected Outcome**: Error message displayed, "You must be at least 18 years old to purchase this product."
+3. **Equivalence Partitioning**:
+    - **Test Case**: Verify access to alcoholic products for users below the age threshold.
+        - **Input**: Date of Birth = (Today - 17 years).
+        - **Expected Outcome**: Access to alcoholic product category is restricted.
+4. **Equivalence Partitioning**:
+    - **Test Case**: Verify access to alcoholic products for users above the age threshold.
+        - **Input**: Date of Birth = (Today - 19 years).
+        - **Expected Outcome**: User is allowed to add alcoholic product to cart.
+5. **Error Guessing**:
+    - **Test Case**: Verify system behavior with an invalid date format for age verification.
+        - **Input**: Date of Birth entered as "99/99/9999."
+        - **Expected Outcome**: Error message displayed, "Invalid date format. Please enter a valid date."
+6. **Error Guessing**:
+    - **Test Case**: Verify system behavior when the date of birth field is left blank.
+        - **Input**: Leave Date of Birth field empty.
+        - **Expected Outcome**: Error message displayed, "Please enter your date of birth."
+
+
