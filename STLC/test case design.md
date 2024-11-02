@@ -5,15 +5,15 @@
 ### Test Case:
 
 1. **Boundary Value Analysis**:
-    - **Test Case**: Verify product rating with exactly 1 star.
+    - **Test Case**: Verify product rating with the minimum rating value.
         - **Input**: Select 1 star and submit feedback.
         - **Expected Outcome**: Rating is accepted and saved successfully.
 2. **Boundary Value Analysis**:
-    - **Test Case**: Verify product rating with exactly 5 stars.
+    - **Test Case**: Verify product rating with the maximum rating value.
         - **Input**: Select 5 stars and submit feedback.
         - **Expected Outcome**: Rating is accepted and saved successfully.
 3. **Equivalence Partitioning**:
-    - **Test Case**: Verify product rating with valid feedback text.
+    - **Test Case**: Verify product rating with valid feedback text length.
         - **Input**: Select 4 stars, enter feedback text under 250 characters.
         - **Expected Outcome**: Rating and feedback are accepted and saved successfully.
 4. **Equivalence Partitioning**:        
@@ -21,7 +21,7 @@
         - **Input**: Select 3 stars, enter feedback text over 250 characters.
         - **Expected Outcome**: Error message displayed, "Feedback text cannot exceed 250 characters."
 5. **Use Case Testing**:
-    - **Test Case**: Verify that logged-in users can submit a rating and feedback.
+    - **Test Case**: Verify that logged in users can submit a rating and feedback.
         - **Input**: Log in, navigate to a product, select a rating, and submit feedback.
         - **Expected Outcome**: Rating and feedback are saved and displayed on the product page.
 6. **Use Case Testing**:
@@ -37,6 +37,6 @@
         - **Input**: Leave the rating selection blank and attempt to submit.
         - **Expected Outcome**: Error message displayed, "Please select a star rating."
 9. **Error Guessing**:        
-    - **Test Case**: Verify the profile story with invalid characters or profanity.
-        - **Input**: Enter feedback text with prohibited words.
-        - **Expected Outcome**: Error message, "Your feedback contains prohibited content."
+    - **Test Case**: Verify system behavior when feedback text contains prohibited or inappropriate words.
+        - **Input**: Enter feedback text containing offensive or prohibited language.
+        - **Expected Outcome**: Error message displayed, "Your feedback contains inappropriate language."
