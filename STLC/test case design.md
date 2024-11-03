@@ -70,6 +70,34 @@
 6. **Error Guessing**:
     - **Test Case**: Verify system behavior when the date of birth field is left blank.
         - **Input**: Leave Date of Birth field empty.
-        - **Expected Outcome**: Error message displayed, "Please enter your date of birth."
+        - **Expected Outcome**: Error message displayed, Please enter your date of birth.
 
+### **3. Shipping Cost Changes**
 
+**Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence partitioning(EP), Error Guessing
+
+**Test Cases**:
+1. **Boundary Value Analysis**:
+    - **Test Case**: Verify free shipping threshold with an order exactly at the threshold value.
+        - **Input**: Cart total = Free shipping threshold (ex, $50).
+        - **Expected Outcome**: Shipping cost = $0.
+2. **Boundary Value Analysis**:        
+    - **Test Case**: Verify shipping cost for an order just below the free shipping threshold.
+        - **Input**: Cart total = Free shipping threshold - $0.01 (while $49.99 of the threshold is $50).
+        - **Expected Outcome**: Standard shipping cost is applied.
+3. **Equivalence Partitioning**:
+    - **Test Case**: Verify shipping cost for orders below the free shipping threshold.
+        - **Input**: Cart total = $30 (below threshold of $50).
+        - **Expected Outcome**: Standard shipping cost is applied.
+4. **Equivalence Partitioning**:        
+    - **Test Case**: Verify free shipping for orders above the free shipping threshold.
+        - **Input**: Cart total = $75 (above threshold of $50).
+        - **Expected Outcome**: Shipping cost = $0.
+5. **Error Guessing**:
+    - **Test Case**: Verify system behavior when cart total is negative (edge case).
+        - **Input**: Cart total = -$10 (ex, due to system error or manual testing setup).
+        - **Expected Outcome**: Error message or prompt for a valid cart total.
+6. **Error Guessing**:        
+    - **Test Case**: Verify system behavior when cart value changes dynamically and crosses the free shipping threshold.
+        - **Input**: Add items to cart incrementally until the total meets or exceeds the threshold.
+        - **Expected Outcome**: Shipping cost is updated dynamically to $0 once the threshold is met.
