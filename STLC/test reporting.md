@@ -13,3 +13,4 @@
 | PR-EG-2      | Prohibited language in feedback               | Inappropriate text              | Error: "Feedback contains inappropriate language."           | No error displayed; feedback was accepted  | Fail   |
 
 ---
+![Screenshot 2024-11-06 at 00 43 28](https://github.com/user-attachments/assets/de636221-e0a4-4b1e-a353-c188d82f1a58)
