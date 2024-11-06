@@ -13,5 +13,4 @@
 | PR-EG-2      | Prohibited language in feedback               | Inappropriate text              | Error: "Feedback contains inappropriate language."           | No error displayed; feedback was accepted  | Fail   |
 
 ---
-
-![image](/Users/hameedshirzay/Desktop/Screenshot 2024-11-06 at 00.43.28.jpg)
+![Image Description](/Users/hameedshirzay/Desktop/Screenshot%202024-11-06%20at%2000.43.28.jpg)
