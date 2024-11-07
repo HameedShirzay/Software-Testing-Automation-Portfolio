@@ -20,11 +20,11 @@
 
 | Test Case ID | Description                                   | Input                           | Expected Outcome                                             | Actual Outcome            | Status |
 |--------------|-----------------------------------------------|---------------------------------|--------------------------------------------------------------|----------------------------|--------|
-| AV-BVA-1     | User exactly 18                               | DOB = 18 years ago              | Allowed to add alcoholic product                             | Product added successfully | Pass   |
+| AV-BVA-1     | User exactly 18                               | DOB = 18 years ago(06-11-2006)  | Allowed to add alcoholic product                             | Product added successfully | Pass   |
 | AV-BVA-2     | User just under 18                            | DOB = 18 years - 1 day          | Error: "You must be at least 18 years old"                   | Error displayed correctly  | Pass   |
 | AV-EP-1      | User below age threshold                      | DOB = 17 years ago              | Access restricted                                            | Access denied as expected  | Pass   |
 | AV-EP-2      | User above age threshold                      | DOB = 19 years ago              | Allowed to add alcoholic product                             | Product added successfully | Pass   |
-| AV-EG-1      | Invalid date format                           | DOB = "99/99/9999"              | Error: "Invalid date format"                                 | Error displayed correctly  | Pass   |
+| AV-EG-1      | Invalid date format                           | DOB = "99/99/9999"              | Error: "Invalid date format"                                 | under age message displayed correctly  | Pass   |
 | AV-EG-2      | Blank DOB field                               | Empty DOB field                 | Error: "Please enter your date of birth"                     | Error displayed correctly  | Pass   |
 
 
