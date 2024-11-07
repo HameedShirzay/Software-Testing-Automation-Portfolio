@@ -15,7 +15,6 @@
 ---
 
 ![Screenshot 2024-11-06 at 00 43 28](https://github.com/user-attachments/assets/de636221-e0a4-4b1e-a353-c188d82f1a58)
->>>>>>> db3e87ccfe25768572f051fceaa4a94de82f1b5b
 
 ## 2. Age Verification for Alcoholic Products
 
@@ -27,5 +26,5 @@
 | AV-EP-2      | User above age threshold                      | DOB = 19 years ago              | Allowed to add alcoholic product                             | Product added successfully | Pass   |
 | AV-EG-1      | Invalid date format                           | DOB = "99/99/9999"              | Error: "Invalid date format"                                 | Error displayed correctly  | Pass   |
 | AV-EG-2      | Blank DOB field                               | Empty DOB field                 | Error: "Please enter your date of birth"                     | Error displayed correctly  | Pass   |
-=======
+
 
