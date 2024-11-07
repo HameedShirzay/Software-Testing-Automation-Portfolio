@@ -28,3 +28,5 @@
 | AV-EG-2      | Blank DOB field                               | Empty DOB field                 | Error: "Please enter your date of birth"                     | Error displayed correctly  | Pass   |
 
 
+![IMG_8784](https://github.com/user-attachments/assets/b217376d-f977-4830-8f94-5c2442e10094)
+
