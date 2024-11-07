@@ -13,7 +13,8 @@
 | PR-EG-2      | Prohibited language in feedback               | Inappropriate text              | Error: "Feedback contains inappropriate language."           | No error displayed; feedback was accepted  | Fail   |
 
 ---
-<<<<<<< HEAD
+
+
 
 ## 2. Age Verification for Alcoholic Products
 
