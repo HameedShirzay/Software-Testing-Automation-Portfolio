@@ -23,7 +23,7 @@ Users should be able to rate products with a 5-star system and have the option t
 - 4. Should users be notified if their review is responded to or rejected?
 
 #### Detailed Requirement:
-Only logged in users can rate and review products to ensure authenticity. Users can rate products on a 1 to 5 star scale, with the option to provide additional written feedback of up to 300 characters. If only a rating is submitted without feedback, it is still valid. On the product page the system will display the average rating (e.g , 4.2 out of 5) along with the total number of reviews. Users will receive realtime feedback if they attempt to submit incomplete reviews (e.g., “Please rate the product before submitting your feedback”). Users will also have the ability to edit or delete their reviews through the “My Reviews” section in their profile.
+Only logged in users can rate and review products to ensure authenticity. Users can rate products on a 1 to 5 star scale, with the option to provide additional written feedback of up to 250 characters. If only a rating is submitted without feedback, it is still valid. On the product page the system will display the average rating (e.g , 4.2 out of 5) along with the total number of reviews. Users will receive realtime feedback if they attempt to submit incomplete reviews (e.g., “Please rate the product before submitting your feedback”). Users will also have the ability to edit or delete their reviews through the “My Reviews” section in their profile.
 
 
 ### 2. Age Verification for Alcoholic Products
