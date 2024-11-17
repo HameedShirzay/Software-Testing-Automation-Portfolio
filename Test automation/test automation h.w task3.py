@@ -24,13 +24,12 @@ login_button = driver.find_element(By.ID, "loginbutton")
 username.send_keys("hameedshirzay9@gmail.com")
 password.send_keys("ahmad@1234")
 
-time.sleep(5)
 
 # Step 5: Click the login button
 login_button.click()
 
 # Step 6: Wait for a few seconds to let the login process complete
-time.sleep(20)
+time.sleep(5)
 
 # Step 7: Print the title of the page (to verify successful login)
 print("Page Title After Login:", driver.title)
