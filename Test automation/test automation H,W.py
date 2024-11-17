@@ -1,9 +1,20 @@
+'''
+Task 1
+Write a script that does the following:
+Opens the URL “https://masterschool.com”
+ Wait for 2-3 seconds.
+Finds the link that has text “Browse Programs” . Hint: Inspect the link to see which appropriate locator can be used.
+Click on the link.
+Wait for 2 seconds.
+Quit.'''
+
+
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-# Step 1: Set up the WebDriver (replace the path below with the actual path to your WebDriver)
+# Step 1: Set up the WebDriver (replace the path below with the actual path to your WebDriver)'''
 driver = webdriver.Chrome()
 
 # Step 2: Open the URL
