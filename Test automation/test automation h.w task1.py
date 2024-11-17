@@ -14,7 +14,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-# Step 1: Set up the WebDriver (replace the path below with the actual path to your WebDriver)'''
+# Step 1: Setting up the WebDriver
 driver = webdriver.Chrome()
 
 # Step 2: Open the URL
