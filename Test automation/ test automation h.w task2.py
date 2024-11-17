@@ -19,7 +19,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.google.com")
 
 
-# step 3: Finds the search bar input element. Use Inspect to see which locator can be used. 
+# step 3: Finds the search bar input element. Use Inspect to see which locator can be used, i used by name locator. 
 search_bar = driver.find_element(By.NAME, "q")
 
 # Step 3: Send the search term "cats" to the search bar and submit
