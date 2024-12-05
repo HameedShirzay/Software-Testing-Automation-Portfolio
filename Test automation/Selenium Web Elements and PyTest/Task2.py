@@ -96,4 +96,4 @@ try:
 except Exception as e:
     print("Test failed:", e)
 
-input() 
+input("Press any key to exit the window") 
