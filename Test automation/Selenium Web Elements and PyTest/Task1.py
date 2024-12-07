@@ -4,6 +4,21 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+
+
+''' 
+Task 1 (Automate the Google Search - Handling Dynamic Dropdown)
+Create a selenium script that does the following:
+1. Launch Browser 
+2. Navigate to URL: “https://www.google.com”
+3. Verify that the search bar is visible (Expected Condition)
+4. Locate the search bar
+5. Enter the search term
+6. Devise a strategy to click on the first element from the search term
+For example, in this case it should click on “istqb” search result.
+7. Verify that a new page is opened.
+'''
+
 # Initialize WebDriver
 driver = webdriver.Chrome()
 
