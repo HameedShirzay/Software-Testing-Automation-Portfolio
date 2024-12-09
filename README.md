@@ -1,4 +1,4 @@
-# Hameed Portfolio
+# Software Testing & Automation Portfolio
 
 This repository serves as a portfolio to showcase my expertise in **Software Testing** and **Test Automation**, with structured examples and documentation. 
 
