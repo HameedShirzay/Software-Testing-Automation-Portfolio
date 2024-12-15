@@ -1,6 +1,6 @@
 ### **1. Product Rating System**
 
-**Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence Partitioning (EP), Use Case Testing, Error Guessing
+**Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence Partitioning (EP), Use Case Testing
 
 ### Test Cases:
 
