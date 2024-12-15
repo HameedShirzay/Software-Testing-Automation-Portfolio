@@ -40,7 +40,7 @@
 
 ### **2. Age Verification for Alcoholic Products**
 
-**Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence partitioning(EP), Error Guessing, State Transation Testing
+**Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence partitioning(EP), Error Guessing
 
 **Test Cases**:
 
@@ -71,7 +71,7 @@
 
 ### **3. Shipping Cost Changes**
 
-**Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence partitioning(EP), Error Guessing
+**Test Design Techniques**: Boundary Value Analysis (BVA), Equivalence partitioning(EP), Error Guessing,  State Transation Testing
 
 **Test Cases**:
 1. **Boundary Value Analysis**:
