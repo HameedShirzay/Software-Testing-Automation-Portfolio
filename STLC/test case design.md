@@ -84,11 +84,11 @@
         - **Expected Outcome**: Standard shipping cost is applied.
 3. **Equivalence Partitioning**:
     - **Test Case**: Verify shipping cost for orders below the free shipping threshold.
-        - **Input**: Cart total = $15 (below threshold of $20).
+        - **Input**: Cart total = $10 (below threshold of $20).
         - **Expected Outcome**: Standard shipping cost is applied.
 4. **Equivalence Partitioning**:        
     - **Test Case**: Verify free shipping for orders above the free shipping threshold.
-        - **Input**: Cart total = $45 (above threshold of $20).
+        - **Input**: Cart total = $35 (above threshold of $20).
         - **Expected Outcome**: Shipping cost = $0.
 5. **Error Guessing**:
     - **Test Case**: Verify system behavior when cart total is negative (edge case).
