@@ -29,8 +29,6 @@ Ratings and feedback are visible without logging in.
 
 ![IMG_9226](https://github.com/user-attachments/assets/8a1583f3-1c23-4801-bab0-4f5bdc96c058)
 
-
-
 ---
 
 ## Bug 2: Free Shipping Incorrectly Applied Below Threshold
