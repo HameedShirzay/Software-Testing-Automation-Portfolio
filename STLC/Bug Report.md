@@ -61,7 +61,7 @@ Free shipping is applied incorrectly for cart totals below the $20 threshold. Ad
 - Free shipping is incorrectly applied below the $20 threshold.
 - Standard shipping fails to reapply dynamically when the cart total drops below $20 after crossing the free shipping threshold.
 
-
+![IMG_9226](https://github.com/user-attachments/assets/cb79f37e-5e88-4149-955c-1dcc4a34c533)
 
 ---
 
