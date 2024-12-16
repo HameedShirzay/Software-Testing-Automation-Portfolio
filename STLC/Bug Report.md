@@ -27,6 +27,8 @@ Ratings and feedback should be hidden for unregistered users or prompt the user 
 ### Actual Outcome
 Ratings and feedback are visible without logging in.
 
+![IMG_9226](https://github.com/user-attachments/assets/8a1583f3-1c23-4801-bab0-4f5bdc96c058)
+
 
 
 ---
