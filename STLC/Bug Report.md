@@ -90,8 +90,7 @@ Free shipping should be applied dynamically as the cart total crosses $20.
 
 ### Actual Outcome
 Standard shipping cost persists until the page is refreshed.
-
-
+![IMG_9231](https://github.com/user-attachments/assets/1cfd95b9-3252-4483-bfa3-9d3686fc8de8)
 
 ---
 
