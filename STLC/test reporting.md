@@ -33,11 +33,11 @@
 
 | Test Case ID | Description                                   | Input                           | Expected Outcome                                             | Actual Outcome             | Status |
 |--------------|-----------------------------------------------|---------------------------------|--------------------------------------------------------------|-----------------------------|--------|
-| SC-BVA-1     | Cart total exactly at threshold               | Cart total = $20               | Shipping cost = $0                                           | Free shipping applied       | Pass   |
-| SC-BVA-2     | Cart just below threshold                     | Cart total = $19.99            | Standard shipping cost                                       | Free shipping applied by mistake   | Fail   |
-| SC-EP-1      | Cart below threshold                          | Cart total = $10               | Standard shipping cost                                       | Free shipping applied by mistake   | Fail   |
-| SC-EP-2      | Cart above threshold                          | Cart total = $35               | Shipping cost = $0                                           | Free shipping applied       | Pass   |
-| SC-EG-1      | Negative cart total                           | Cart total = -$10              | Error message or prompt                                      | Error: "Invalid cart total" | Pass   |
-| SC-EG-2      | Dynamic total adjustment                      | Incrementally add items until $20+ | Free shipping applied once threshold met                | Free shipping not updated dynamically | Fail |
+| SC-BVA-1     | Cart total exactly at threshold               | Cart total = €20               | Shipping cost = €0                                           | Free shipping applied       | Pass   |
+| SC-BVA-2     | Cart just below threshold                     | Cart total = €19            | Standard shipping cost = €5                                      | Standard shipping cost applied   | Pass   |
+| SC-EP-1      | Cart below threshold                          | Cart total = €10               | Standard shipping cost = €5                                      | Standard shipping cost applied    | Pass   |
+| SC-EP-2      | Cart above threshold                          | Cart total = €35               | Shipping cost = €0                                           | Free shipping applied       | Pass   |
+| SC-EG-1      | Negative cart total                           | Cart total = -€10              | Error message or prompt                                      | Error: "Invalid cart total" | Pass   |
+| SC-EG-2      | Dynamic total adjustment                      | Incrementally add items until €5+ | Free shipping applied once threshold met                | Free shipping not updated dynamically | Fail |
 
 ![IMG_8795](https://github.com/user-attachments/assets/28983828-eae7-45f3-9942-1420d5f1fbc0)
