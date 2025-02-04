@@ -6,7 +6,7 @@ Go to [https://grocerymate.masterschool.com](https://grocerymate.masterschool.co
 
 The XPath for the login icon:
 ```xpath
-//div[@id="root"]/div/div[1]/div[2]/div[2]/div[1]/svg
+//div[@class="headerIcon"]
 ```
 
 ---
@@ -17,27 +17,27 @@ Now, open [https://grocerymate.masterschool.com/auth](https://grocerymate.master
 
 The XPath for the Email Address:
 ```xpath
-//div[@id="root"]//form[@class="form"]/input[@type="email"]
+//input[@type="email"]
 ```
 
 The XPath for the Password field:
 ```xpath
-//div[@id="root"]//form/input[@type="password"]
+//input[@type="password"]
 ```
 
 The XPath for the Sign-in Button:
 ```xpath
-//div[@id="root"]/div/form/button[@type="submit" and @class="submit-btn"]
+//button[@type='submit']
 ```
 
 The XPath for the Create a new account link:
 ```xpath
-//div[@id="root"]/form/a[@href="#!" and @class="switch-link"]
+//a[@href='#!' and @class='switch-link']
 ```
 
 The XPath for the Go to Home link:
 ```xpath
-//div[@id="root"]/form/a[@href="#!" and @class="home-link"]
+//a[@href="#!" and @class="home-link"]
 ```
 
 ---
@@ -48,22 +48,22 @@ Now, on the same link as in Part 2, click on "Create a new account". You will se
 
 The XPath for the Full Name field of the new user to sign up:
 ```xpath
-//div[@id="root"]/form/input[@type="text" and contains(@class, "form-input")]
+//form[@class="form"]/input[@type="text" and @placeholder="Full Name"]
 ```
 
 The XPath for the Email Address field of the new user to sign up:
 ```xpath
-//div[@id="root"]//form[@class="form"]/input[@type="email"]
+//form[@class="form"]/input[@type="email"]
 ```
 
 The XPath for the Password field of the new user to sign up:
 ```xpath
-//div[@id="root"]//form/input[@type="password"]
+//form[@class="form"]/input[@type="password"]
 ```
 
 The XPath for the Sign-up button for creating an account:
 ```xpath
-//div[@id="root"]//form/button[@type="submit"]
+//form[@class="form"]/button[@type="submit"]
 ```
 
 ---
@@ -74,7 +74,7 @@ Go to [https://grocerymate.masterschool.com/store](https://grocerymate.mastersch
 
 The XPath for the age confirmation button after clicking on shop to "Confirm" age:
 ```xpath
-//div[@id="root"]//div[@class="modal-content"]/button[text()="Confirm"]
+//div[@class="modal-content"]/button[text()="Confirm"]
 ```
 
 ---
@@ -83,15 +83,15 @@ Go to the Shop page, write the XPath for the quantity input of Oranges, Add to C
 
 The XPath for the quantity input of Orange:
 ```xpath
-//div[@id="root"]//div/div[@class="col-3"]/input
+//div[@class="col-3"]/input[@type="number"]
 ```
 
 The XPath for the Add to Cart button:
 ```xpath
-//div[@id="root"]//div/div[@class="col-7"]/button
+//div[@class="col-7"]/button[@class="btn btn-primary btn-cart"]
 ```
 
 The XPath for the Add to Wish List button for the orange product:
 ```xpath
-//div[@id="root"]//div/div[@class="col-1"]/button
+//div[@class="col-1"]/button[@class="btn btn-outline-dark"]
 ```
